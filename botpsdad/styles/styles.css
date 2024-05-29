@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  width: 1526px;
+}
+
+.secao-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.facilidades{
+  color: #DAFF01;
+}
+
+.pix::before{
+  margin: 10px;
+  content: url('https://img.icons8.com/?size=24&id=CuUOYOfd3Dy9&format=png');
+  background-color: white;
+  border-radius: 20%;
+}
+
+.troca::before{
+  margin: 10px;
+  content: url('https://img.icons8.com/?size=24&id=I1ULRiehKV_o&format=png');
+  background-color: white;
+  border-radius: 20%;
+}
+
+.sustentabilidade::before{
+  margin: 10px;
+  content: url('https://img.icons8.com/?size=24&id=118815&format=png');
+  background-color: white;
+  border-radius: 20%;
+}
+
+.sexo:hover{
+  background-color: cornflowerblue;
+}
